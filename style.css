@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container{
+    padding-bottom: 200px;
+    background: linear-gradient(113.38deg, #F68FC7 14.51%, #ED65AE 89.52%);
+}
+.header-center-button{
+    width: 52%;
+    font-size: 23px;
+    white-space: nowrap;
+    background: linear-gradient(100.71deg, rgba(89, 15, 55, 0.9) 30.79%, rgba(117, 5, 59, 0.9) 64.73%);
+    box-shadow: 5px 11px 35px rgba(121, 10, 63, 0.63);
+    border-radius: 45px;
+    padding: 18px 25px;
+    color: #ffff;
+}
+.header-center-div{
+    display: flex;
+    flex-direction: column;
+}
+.header-center-div-1{
+    font-size: 45px;
+}
+.header-center-div-2{
+    font-size: 26px;
+}
+.main-photos{
+    display: flex;
+    position: relative;
+    top: -130px;
+}
+.main-photos-1{
+    flex-direction: column;
+    border-radius: 20px;
+    background: #ffff;
+    margin-right: 100px;
+    padding: 30px 50px;
+}
+.why-us{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.why-us-text{
+    flex-direction: column;
+
+}
+.why-us-smile{
+    color: white;
+    font-size: 80px;
+    padding: 20px 20px;
+    border: 3px solid rgba(103, 21, 64, 0.93);
+    border-radius: 50%;
+    background: rgba(103, 21, 64, 0.93);;
+}
+.why-us-main{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.why-us-h2{
+    color: palevioletred;
+    font-weight: bold;
+}
+.why-us-candies{
+    font-weight: 900;
+}
+
+.main-production{
+    display: flex;
+    justify-content: space-between;
+}
+.main-production-text{
+    border: 1px solid rgba(103, 21, 64, 0.93);
+    border-radius: 45px;
+    padding: 7px 13px;
+}
+.main-discription{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container{
+    background: rgba(255, 0, 153, 0.12);
+    padding-top: 45px;
+}
+.main-discription-text{
+    background: rgba(103, 21, 64, 0.86);
+    border-radius: 20px;
+    padding: 60px 60px;
+}
